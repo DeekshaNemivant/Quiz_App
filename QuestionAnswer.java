@@ -3,23 +3,23 @@ package com.example.quizapp;
 public class QuestionAnswer {
 
     public static String question []={
-            "What is 10+26 ?",
+            "Name an Animal which is pink in color?",
             "Who invented Telephone?",
-            "what is 12*9 ?",
+            "what is the capital of Japan ?",
             "who is the founder of SpaceX?",
-            "In the given options, which is the Example of System Software?"
+            "Who is the Richest person of Asia?"
     };
     public static String choices [][]={
-            {"32" , "42" , "36" , "38"},
+            {"Peacock" , "Penguin" , "Flamingo" , "Humming Bird"},
             {"Graham Bell" , "Einstein" , "Edison" , "None of the above"},
-            {"96" , "84" , "102" , "108"},
+            {"Tokyo" , "Fukui" , "Chubu" , "Beijing"},
             {"Jeff Bezos" , "Elon Musk" , "Steve Jobs" , "Bill Gates"},
-            {"Windows" , "Linux" , "MacOS" , "All of the above"}
+            {"Gautam Adani" , "Mukesh Ambani" , "Shiv Nadar" , "Kumar Birla"}
     };
     public static String correctAnswers []={
-            "36" ,
+            "Flamingo" ,
             "Graham Bell",
-            "108",
+            "Tokyo",
             "Elon Musk",
-            "All of the above"};
+            "Gautam Adani"};
 }
